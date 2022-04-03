@@ -64,7 +64,7 @@ export default class Historia extends Component {
                 </div>
                 <div className="recordatorio">
 
-                    <h3>Seleccion anterior:{this.state.eleccion}</h3>
+                    <h3>Seleccion anterior: {this.state.eleccion}</h3>
 
                     <h3>Historial</h3>
                     {this.state.historialElecciones.map((ele, i) => {
